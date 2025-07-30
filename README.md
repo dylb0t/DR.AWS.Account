@@ -24,12 +24,15 @@ After selecting the region, you can now create an EC2 instance.
 
 The service that you will be using to create your VM is called EC2.
 In the top "Search" you can just type EC2.
+
 <img width="974" height="247" alt="1EC2" src="https://github.com/user-attachments/assets/e967e5ee-428e-488c-9af3-0e3e215d2605" />
 
 2. Launch instance
+
 <img width="722" height="197" alt="2LAUNCH" src="https://github.com/user-attachments/assets/e08c6dc3-d6a4-4f0e-b679-f7b018364655" />
 
 3. Give it a name
+
 <img width="874" height="166" alt="3NAME" src="https://github.com/user-attachments/assets/e2351420-a679-4944-a9a9-a9ec642d45bb" />
 
 4. Choose Windows
@@ -54,7 +57,7 @@ You MUST create a keypair. Download your copy of it as you will need it to conne
     
 Leave network and storage default for now, as the one selected is free tier eligible. If you choose more storage, you will possibly run into monthly charges. You can lock down your security group to only accept your known IPs if you want, but that is out of the scope of this howto. It would also make it hard to connect from cellphone.
 
-<img width="1013" height="521" alt="7NETWORK" src="https://github.com/user-attachments/assets/023c556c-e41d-4fdc-a74b-98f6e464039c" />
+<img width="1013" height="521" alt="7NETWORK" src="https://github.com/user-attachments/assets/c4b121ff-4654-4d40-8df7-9788d32a67bd" />
 
 8. Launch
     
@@ -69,6 +72,7 @@ On the left menu you should find Instances.
 <img width="254" height="131" alt="9INSTANCES" src="https://github.com/user-attachments/assets/ad02ff41-44bb-4fd7-8b18-45df01006666" />
 
 10. Select instance
+
 <img width="776" height="332" alt="10INSTANCEID" src="https://github.com/user-attachments/assets/99478ddf-d003-43c6-b63b-3599bea03d32" />
 
 11. Connect
@@ -78,6 +82,7 @@ Select "Connect" under the actions menu.
 <img width="371" height="136" alt="11CONNECT" src="https://github.com/user-attachments/assets/ec2683bf-1da3-4c45-88dd-2a3868415f7f" />
 
 12. Choose RDP Client
+
 <img width="1019" height="673" alt="12RDP" src="https://github.com/user-attachments/assets/26a46f85-f633-4814-8116-e3eaec74ef07" />
 
 13. Get Password
@@ -89,17 +94,20 @@ Select "Connect" under the actions menu.
 14. Private Key
     
 Upload the private key that you downloaded when you created the keypair earlier.
+
 <img width="678" height="296" alt="14PK" src="https://github.com/user-attachments/assets/ae275508-757b-4b27-a6cd-e900df68dd4f" />
 
 15. Decrypt
     
 Once you decrypt the password for the Administrator account will show.
+
 <img width="220" height="90" alt="15DECRYPT" src="https://github.com/user-attachments/assets/8c6f60a4-7945-467a-b101-05d2ba05dafa" />
 
 16. Download remote desktop file (optional)
     
 Download the remote desktop file
 When prompted use Administrator and your decrypted password
+
 <img width="373" height="131" alt="17DOWNLOADRDP" src="https://github.com/user-attachments/assets/2c56738c-d87c-44ab-9ec9-9b2c2e0205ce" />
 
 17. Done... Or are we?
@@ -113,12 +121,15 @@ Download the software to a folder on your computer, share it to the RDP session.
 
 # Pricing Expectations
 Even when you use the free tier, you can exceed the amount of credits that are included. In the beginning of this document I talked about 2 accounts that I had. Here is the billing for the first account that doesn't burst often
+
 <img width="1049" height="400" alt="21COSTS" src="https://github.com/user-attachments/assets/31987120-1c21-4459-9548-dc8f96989b78" />
 
 And here is the one that bursts all the time:
+
 <img width="966" height="427" alt="20COSTS" src="https://github.com/user-attachments/assets/0e5040d8-cfd4-43d0-ad77-f2e52bd63073" />
 
 You can track how you are doing by monitoring the CPU credits.
+
 <img width="692" height="242" alt="18CREDITUSAGE" src="https://github.com/user-attachments/assets/44f734e0-f87b-4df2-8255-5777da7f4e29" />
 
 <img width="1571" height="682" alt="19CREDITCOUNT" src="https://github.com/user-attachments/assets/d9956f51-ea61-449b-b46a-3aaa63c5c5b0" />
