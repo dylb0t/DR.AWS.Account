@@ -24,7 +24,7 @@ After selecting the region, you can now create an EC2 instance.
 
 The service that you will be using to create your VM is called EC2.
 In the top "Search" you can just type EC2.
-<img width="974" height="247" alt="1EC2" src="https://github.com/user-attachments/assets/c05a9f50-be3e-4ead-a258-a757e145a44b" />
+<img width="974" height="247" alt="1EC2" src="https://github.com/user-attachments/assets/e967e5ee-428e-488c-9af3-0e3e215d2605" />
 
 2. Launch instance
 <img width="722" height="197" alt="2LAUNCH" src="https://github.com/user-attachments/assets/e08c6dc3-d6a4-4f0e-b679-f7b018364655" />
@@ -35,46 +35,54 @@ In the top "Search" you can just type EC2.
 4. Choose Windows
    
 Make sure you select something that is "free tier eligible". As a note, I use Windows Server 2019 because it is my belief it runs a little faster than 2025. Really this is up to you, as long is it is free.
+
 <img width="889" height="458" alt="4OS" src="https://github.com/user-attachments/assets/2252c7fe-6ba0-462a-82be-23eeae726969" />
 
 5. Choose instance type
    
 Just make sure it says "free tier eligible".  The t2/t3 decision depends on where you choose to host. Sweden is the only place I have found t3 to be free tier eligible at the time of this writing, everything else is t2.
+
 <img width="988" height="244" alt="5SIZE" src="https://github.com/user-attachments/assets/c06ada62-713f-41e2-8550-8c5fa46abab1" />
 
 6. Create keypair
     
 You MUST create a keypair. Download your copy of it as you will need it to connect later.
+
 <img width="1010" height="224" alt="6KEYPAIR" src="https://github.com/user-attachments/assets/f27d3930-4229-4c65-bdad-09dd5f13c832" />
 
 7. Network and Storage
     
 Leave network and storage default for now, as the one selected is free tier eligible. If you choose more storage, you will possibly run into monthly charges. You can lock down your security group to only accept your known IPs if you want, but that is out of the scope of this howto. It would also make it hard to connect from cellphone.
+
 <img width="1013" height="521" alt="7NETWORK" src="https://github.com/user-attachments/assets/023c556c-e41d-4fdc-a74b-98f6e464039c" />
 
 8. Launch
     
 Go take a pee, it will probably be done by the time you get back.
+
 <img width="253" height="144" alt="8LAUNCH" src="https://github.com/user-attachments/assets/8bda2fc6-d739-4a95-a34e-abcdab518bb4" />
 
 9. Navigate to instances
     
 On the left menu you should find Instances.
+
 <img width="254" height="131" alt="9INSTANCES" src="https://github.com/user-attachments/assets/ad02ff41-44bb-4fd7-8b18-45df01006666" />
 
 10. Select instance
-<img width="776" height="332" alt="10INSTANCEID" src="https://github.com/user-attachments/assets/f2601d96-e4d2-4b87-8fc2-423f12005ce1" />
+<img width="776" height="332" alt="10INSTANCEID" src="https://github.com/user-attachments/assets/99478ddf-d003-43c6-b63b-3599bea03d32" />
 
 11. Connect
     
 Select "Connect" under the actions menu.
+
 <img width="371" height="136" alt="11CONNECT" src="https://github.com/user-attachments/assets/ec2683bf-1da3-4c45-88dd-2a3868415f7f" />
 
 12. Choose RDP Client
-<img width="1019" height="673" alt="12RDP" src="https://github.com/user-attachments/assets/33d65af6-b229-448e-b758-5aed49754b60" />
+<img width="1019" height="673" alt="12RDP" src="https://github.com/user-attachments/assets/26a46f85-f633-4814-8116-e3eaec74ef07" />
 
 13. Get Password
-<img width="881" height="346" alt="13GETPW" src="https://github.com/user-attachments/assets/679fc600-5d4d-4d54-a541-eb5391db30be" />
+
+<img width="881" height="346" alt="13GETPW" src="https://github.com/user-attachments/assets/909b180f-a839-442a-a5db-318b4c083630" />
 
 <img width="388" height="85" alt="16GETPW" src="https://github.com/user-attachments/assets/42763a3c-0934-412e-98f8-c9656f140e2e" />
 
